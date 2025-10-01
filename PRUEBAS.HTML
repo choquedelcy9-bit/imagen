@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pruebas</title>
+    <style>
+      css/* Estilos para elementos con clase .titulo */
+.titulo {
+  color: rgb(202, 25, 16);
+  font-size: 24px;
+}
+
+/* Estilos para todos los elementos con clase .texto */
+.texto {
+  color: rgba(8, 1, 1, 0.939);
+  font-family: Arial;
+}
+
+/* Estilo aplicado solo al elemento con id especial */
+#especial {
+  color: rgb(184, 169, 221);
+  font-weight: bold;
+}
+
+/* Estilo único para el encabezado */
+#encabezado {
+  background-color: lightblue;
+  padding: 20px;
+}  
+.contenedor {
+  width: 80%;          /* ancho del contenedor */
+  max-width: 600px;    /* máximo ancho */
+  margin: 0 auto;      /* centra el contenedor en la página */
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;  /* centra texto e imágenes internas */
+}
+
+figure {
+  margin: 0;           /* elimina márgenes por defecto */
+}
+
+figure img {
+  max-width: 100%;     /* la imagen ocupa todo el ancho del contenedor */
+  height: auto;
+  display: inline-block;
+}
+
+o 
+figure img {
+  display: block;
+  margin: 0 auto; /* Margen automático para centrar horizontalmente */
+  max-width: 100%;
+  height: auto;
+}
+    </style>
+</head>
+
+<body>
+    <header id="encabezado">
+        <h1 class="titulo">PRUEBAS</h1>
+    </header>
+    <article>
+        <div class="contenido">
+            <p class="texto"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi libero
+                voluptas sequi quisquam illum deleniti perspiciatis, praesentium, minus, provident veniam. Minima
+                necessitatibus adipisci incidunt optio inventore cum modi. Eos!este es un parrafo con estilo de clase.
+            </p>
+            <p class="texto" id="especial"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id libero, beatae,
+                cum quisquam voluptates labore recusandae, autem aliquam similique quasi facere tenetur pariatur
+                molestias commodi dolor optio magnam doloribus iusto.este parrrafo tiene clase y un ID unico</p>
+        </div>
+        <h2 class="titulo">centrar imagen</h2>
+        <div class="contenedor">
+             <img src="lapaz.jpg" alt="Imagen descriptiva" />
+             <p class="descripcion">Esta es la descripción centrada debajo de la imagen.</p>
+        </div>
+        
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+css/* Estilos para elementos con clase .titulo */
+.titulo {
+  color: rgb(202, 25, 16);
+  font-size: 24px;
+}
+
+/* Estilos para todos los elementos con clase .texto */
+.texto {
+  color: rgba(8, 1, 1, 0.939);
+  font-family: Arial;
+}
+
+/* Estilo aplicado solo al elemento con id especial */
+#especial {
+  color: rgb(184, 169, 221);
+  font-weight: bold;
+}
+
+/* Estilo único para el encabezado */
+#encabezado {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.contenedor {
+  width: 80%;          /* ancho del contenedor */
+  max-width: 600px;    /* máximo ancho */
+  margin: 0 auto;      /* centra el contenedor en la página */
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;  /* centra texto e imágenes internas */
+}
+
+figure {
+  margin: 0;           /* elimina márgenes por defecto */
+}
+
+figure img {
+  max-width: 100%;     /* la imagen ocupa todo el ancho del contenedor */
+  height: auto;
+  display: inline-block;
+}
+
+o 
+figure img {
+  display: block;
+  margin: 0 auto; /* Margen automático para centrar horizontalmente */
+  max-width: 100%;
+  height: auto;
+}
